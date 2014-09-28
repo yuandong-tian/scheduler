@@ -6,6 +6,8 @@ A simple schedule optimizer given a todo list.
 Usage:
 
 make schedule_pylib
-./schedule_plan.sh # That convert sample_todo.org to a executable schedule.
+
+# This converts sample_todo.org to a executable schedule.
+./schedule_plan.sh 
 
 Enjoy!
