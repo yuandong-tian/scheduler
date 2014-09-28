@@ -263,7 +263,7 @@ def process_tasks_yaml(file_name, start_time):
 
 	tasks.global_start_time = util_dt_time(start_time);
 	tasks.rest_time = time_to_rest;
-	tasks.max_heap_size = 10000;
+	tasks.max_heap_size = 100;
 	return tasks;
 
 if __name__ == '__main__':
