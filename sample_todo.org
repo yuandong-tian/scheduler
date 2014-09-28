@@ -1,4 +1,4 @@
-* Sep 30
+* Sep 29
 Must do the following:
 
 1. Research
@@ -14,8 +14,8 @@ Must do the following:
 + [1h>16:00<23:00^1d] Play badminton with AAA
 
 4. Others
-+ [3pm/Sun~2h] Watch Movie 
-+ [7pm/Sun~2h] BoardGames 
++ [15:00/Sun~2h] Watch Movie 
++ [19:00/Sun~2h] BoardGames 
 
 5. Work
 + [Done] Make code work
