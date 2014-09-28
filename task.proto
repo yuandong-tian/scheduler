@@ -1,0 +1,70 @@
+package schedule;
+
+message TimeSegment {
+	optional int32 duration = 1;
+
+	// Once we finish this task, how much time should we wait 
+	// until next task that depends on it.
+	optional int32 cool_down = 2 [default = 0];
+
+	// Must finish before the deadline.
+	optional int32 deadline = 3;
+
+	// Must start within the following intervals.
+	// Note that earliest_starts.size() == latest_starts.size().
+	repeated int32 earliest_starts = 4;
+	repeated int32 latest_starts = 5;
+
+	// Priority, from 1 to 100.
+	optional int32 priority = 6 [default = 1];	
+}
+
+// Specifying a task.
+message Task {
+	// Task id. Each task has a different id. E.g. Move-0, Solve-1
+	optional string id = 1;
+
+	// Different tasks (steps) may comes from the same group. 
+	optional string group = 2;
+
+	// PreReq task ids.
+	repeated string pre_req_ids = 3;
+
+	optional TimeSegment time = 5;
+}
+
+message Schedule {
+	// Id of the task.
+	optional string id = 1;
+	optional int32 start = 2;
+	optional int32 end = 3;
+}
+
+message Tasks {
+	repeated Task tasks = 1;
+
+	// Scheduling parameters.
+	optional int32 global_start_time = 2 [default = 0];
+	optional int32 rest_time = 3 [default = 0];
+
+	// Maximum heap size.
+	optional int32 max_heap_size = 4 [default = 500000];
+}
+
+message Schedules {
+	enum FinalStatus {
+		SUCCESS = 0;
+		INCOMPLETE = 1;
+	}
+
+	repeated Schedule schedules = 1;
+
+	// Output statistics.
+	optional int32 search_steps = 2;
+
+	optional FinalStatus status = 3;
+	repeated string incomplete_tasks = 4;
+
+	optional int32 total_duration = 5;
+	optional int32 used_duration = 6;
+}
