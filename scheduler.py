@@ -268,8 +268,8 @@ def process_tasks_yaml(file_name, start_time):
 
 if __name__ == '__main__':
 	# Load the task.
-	# now = parse_time("16:00 09/27/2014")
-	now = datetime.now();
+	now = parse_time("10:00 09/28/2014")
+	# now = datetime.now();
 	tasks = process_tasks_yaml(sys.argv[1], now)
 	# print tasks;
 
