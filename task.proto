@@ -16,7 +16,7 @@ message TimeSegment {
 	repeated int32 latest_starts = 5;
 
 	// Priority, from 1 to 100.
-	optional int32 priority = 6 [default = 1];	
+	optional int32 priority = 6 [default = 10];	
 }
 
 // Specifying a task.
