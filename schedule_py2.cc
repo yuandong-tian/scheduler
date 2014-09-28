@@ -8,11 +8,11 @@ using namespace schedule;
 PyMODINIT_FUNC initschedule_pylib(void); /* Forward */
 
 int main(int argc, char **argv) {
-	/* Pass argv[0] to the Python interpreter */
-	Py_SetProgramName(argv[0]);
+    /* Pass argv[0] to the Python interpreter */
+    Py_SetProgramName(argv[0]);
 
-	/* Initialize the Python interpreter.  Required. */
-	Py_Initialize();
+    /* Initialize the Python interpreter.  Required. */
+    Py_Initialize();
 
     /* Add a static module */
     initschedule_pylib();
@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
 
 /* 'self' is not used */
 static PyObject * schedule_pylib_make_schedule(PyObject *self, PyObject* args) {
-	const char *tasks_string;
+    const char *tasks_string;
 
     if (!PyArg_ParseTuple(args, "s", &tasks_string))
         return NULL;
