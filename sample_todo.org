@@ -1,0 +1,27 @@
+* Sep 30
+Must do the following:
+
+1. Research
++ Think about why A works
++ [Coding] Write code to verify it
++ [Plan] Next step of research
+
+2. Writing
++ [3h] Write chapter X for novel Y
++ [2h] Write a blog
+
+3. Exercise
++ [1h>16:00<23:00^1d] Play badminton with AAA
+
+4. Others
++ [3pm/Sun~2h] Watch Movie 
++ [7pm/Sun~2h] BoardGames 
+
+5. Work
++ [Done] Make code work
++ [2h<<16:00/Tue] Other stuff I need to do
+
+6. Reading
++ A story of ice and fire
++ How to build a GPU cluster
++ Browse through conference papers.
