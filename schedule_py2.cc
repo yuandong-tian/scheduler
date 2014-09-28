@@ -24,6 +24,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
+/* 'self' is not used */
 static PyObject * schedule_pylib_make_schedule(PyObject *self, PyObject* args) {
 	const char *tasks_string;
 
@@ -41,13 +42,13 @@ static PyObject * schedule_pylib_make_schedule(PyObject *self, PyObject* args) {
     	schedules.SerializeToString(&schedules_str);
     }
 
-    return Py_BuildValue("s", schedules_str.c_str());
+    return Py_BuildValue("s#", schedules_str.c_str(), schedules_str.size());
 }
 
 static PyMethodDef schedule_pylib_methods[] = {
         {"MakeSchedule", schedule_pylib_make_schedule, METH_VARARGS,
          "Make a schedule for you."},
-        {NULL, NULL, 0, NULL}
+        {NULL, NULL, 0, NULL}           /* sentinel */
 };
 
 PyMODINIT_FUNC initschedule_pylib(void)
