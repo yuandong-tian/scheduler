@@ -143,7 +143,5 @@ class ParseTest(unittest.TestCase):
 		self.assertEqual(len(res[3].earliest_starts), 1);
 		self._check_start_end(res[3], 0, "21:35 09/29/2014", "22:00 09/29/2014");
 
-#class ScheduleLibTest(unittest.TestCase)
-
 if __name__ == '__main__':
 	unittest.main()
