@@ -1,12 +1,2 @@
-scheduler
-=========
+./schedule_plan.sh sample_todo.org
 
-A simple schedule optimizer given a todo list. 
-
-Usage:
-
-make schedule_pylib
-
-./schedule_plan.sh 
-
-Enjoy!
