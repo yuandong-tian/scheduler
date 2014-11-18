@@ -1,5 +1,12 @@
 #!/bin/bash
-./macro_scheduler.py ../../../daily_plan/plans/plans.org tmp.yaml
+if [ -z "$1" ] 
+then
+    filename=../../../daily_plan/plans/plans.org
+else
+    filename=$1
+fi
+
+./macro_scheduler.py $filename tmp.yaml
 #./macro_scheduler.py sample_todo.org > tmp.yaml
 ./schedule.py tmp.yaml
 

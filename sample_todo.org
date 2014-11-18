@@ -1,10 +1,10 @@
-* Sep 29
+* Nov 18
 Must do the following:
 
 1. Research
-+ Think about why A works
-+ [Coding] Write code to verify it
-+ [Plan] Next step of research
++ [1h] Think about why A works
++ [2h] Write code to verify it
++ [1h] Next step of research
 
 2. Writing
 + [3h] Write chapter X for novel Y
@@ -22,6 +22,6 @@ Must do the following:
 + [2h<<16:00/Tue] Other stuff I need to do
 
 6. Reading
-+ A story of ice and fire
-+ How to build a GPU cluster
-+ Browse through conference papers.
++ [1h] A story of ice and fire
++ [2h] How to build a GPU cluster
++ [2h] Browse through conference papers.

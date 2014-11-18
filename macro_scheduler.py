@@ -156,7 +156,6 @@ for leaf in tree.children[-1].iter_leaves(is_leaf_fn=leaf_fun):
 	prev_works = [s["entry"]];
 
 regulars = [
-  "Onboardmeeting 15:00/Thu~30m",
   "Breakfast+Commute 8:50am!20m~45m*1d$mustdo",
   "Lunch 12:00pm!30m~1h*1d$mustdo",
   "Dinner 6:30pm!30m~45m*1d$mustdo",

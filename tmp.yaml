@@ -1,8 +1,28 @@
-_End_Time_: 23:59/Nov-2
-Nov-2-Google-Check-Logsim-framework :
-  labels: 30m
-Onboardmeeting: 
-  labels: 15:00/Thu~30m
+_End_Time_: 23:59/Nov-18
+Nov-18-Research-Think-about-why-A-works :
+  labels: 1h
+Nov-18-Research-Write-code-to-verify-it :
+  labels: 2h
+Nov-18-Research-Next-step-of-research :
+  labels: 1h
+Nov-18-Writing-Write-chapter-X-for-novel-Y :
+  labels: 3h
+Nov-18-Writing-Write-a-blog :
+  labels: 2h
+Nov-18-Exercise-Play-badminton-with-AAA :
+  labels: 1h>16:00<23:00^1d
+Nov-18-Others-Watch-Movie- :
+  labels: 15:00/sun~2h
+Nov-18-Others-BoardGames- :
+  labels: 19:00/sun~2h
+Nov-18-Work-Other-stuff-I-need-to-do :
+  labels: 2h<<16:00/tue
+Nov-18-Reading-A-story-of-ice-and-fire :
+  labels: 1h
+Nov-18-Reading-How-to-build-a-GPU-cluster :
+  labels: 2h
+Nov-18-Reading-Browse-through-conference-papers. :
+  labels: 2h
 Breakfast+Commute: 
   labels: 8:50am!20m~45m*1d$mustdo
 Lunch: 
