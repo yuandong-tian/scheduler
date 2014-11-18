@@ -312,6 +312,7 @@ bool make_schedule(const Tasks& tasks, Schedules* schedules) {
 		pre_reqs[i].resize(task.pre_req_ids_size());
 
 		for (int j = 0; j < task.pre_req_ids_size(); ++j) {
+			// cout << "Task " << task.id() << " has prereq " << task.pre_req_ids(j) << endl;
 			pre_reqs[i][j] = id_to_index[task.pre_req_ids(j)];
 		}
 	}
@@ -389,6 +390,9 @@ bool make_schedule(const Tasks& tasks, Schedules* schedules) {
 			}
 		}
 	}
+
+	cout << "#Steps = " << num_steps << endl;
+	
 	// Get the best schedule.
 	vector<int> order = best_schedule.GetOrder();
 

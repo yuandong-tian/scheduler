@@ -1,0 +1,3 @@
+| Work    | Interval |   | Sun 23:00 | 20m,1h,20m,120m,20m   |
+| Writing | Interval |   | Sun 23:00 | 30m,20m,60m,20m,30m |
+| Arrange | Seq      |   | Sun 23:00 | 30m,30m,30m         |

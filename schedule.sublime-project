@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"file_include_patterns":
+			[
+				"*.cc", "*.h", "*.py", "*.proto", "Makefile", "*.yaml"
+			],
+			"follow_symlinks": true,
+			"name": "schedule",
+			"path": "./"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.org"
+			],
+			"follow_symlinks": true,
+			"name": "plan_files",
+			"path": "../../../daily_plan/plans/"
+		}
+	]	
+}

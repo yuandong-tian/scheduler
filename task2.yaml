@@ -1,0 +1,77 @@
+# Two formats
+# 8:50am+-20m~45m>15:00<22:00<<deadline%80+cooldown*RepPattern
+# 1h+30m...
+Calender_:
+  - set_ *1d
+  - Breakfast+Commute 8:50am!20m~45m
+  - Lunch 12:00pm!10m~1h
+  - Dinner 6:30pm!10m~45m
+  - Shower 22:00!1h30m~15m  
+  - Sleep 23:30!30m~7h45m  
+  - set_ *2d
+  - Jogging 22:00!30m~1h
+
+Reading_: 
+  - set_ >15:00<23:00^1d
+  - Cuda-aware-MPI-personal-cluster 1h
+  - Go-deeper-paper 30m
+  - Draft-book-on-deep-learning 1h
+
+Stuff_:
+  - Kaiming-resume 30m%Done<<23:30/Wed
+
+TurnSignalToBrain:
+  - PrepareData 1h30m+5h%Done
+  - CreatePyplan 1h%Done
+  - RunBrain 10m+5h%Done
+  - RunCifar10 10m+5h%Done
+
+Check RT_EVENT for EV:
+  - RunCustomizedOnLogSim 1h30m+1h%Done
+  - CheckPV 1h%Done
+  - CheckEV 1h30m%Done
+
+Check MissedEV:
+  - DumpMissedEV 1h30m+3h%Done
+  - CheckMissedEV 1h%Done
+  - CheckEVOnXview 1h%Done
+
+EV Refactor:
+  - Refactor-the-detector 1h%Canceled
+  - Offline-MR 1h30m%Canceled
+  - Use-Extractor-plus-Callback 3h+5h
+
+DeepLearning:
+  - GetGPUPermission 20m+5h 
+  - RerunAlexLCP 20m+1d
+  - RerunAlexLCP-2 20m+1d
+  - RerunTurnSignal 1h+1d
+  - RerunTurnSignal-2 1h+1d
+
+Moving:
+  - set_ >18:00<23:59^1d
+  - Packing 3h%Done
+  - CheckDocument 1h%Done
+  - Furniture 1h%Done
+  - CleanUp 1h<<23:59/Sat
+
+Perf:
+  - Wanyen-perf 1h<<23:30/Thu%Done
+
+Review:
+  - set_ >18:00<23:59^1d
+  - AAAI 3h<<Oct/12/2014
+
+Job:
+  - set_ >19:00<23:00
+  - PrepareRes 30m%Done
+  - Talk-with-Ming 30m%Done
+  - SendTheResume 10m%Done
+
+Calender2_:
+  - MeetingWithDave 11:30am/Wed!0m~25m%Done
+  - ECCVRecap 1:00pm/Wed!0m~1h%Done
+  - Onboardmeeting 3:00pm/Thu!1m~30m%Done
+  - MeetingWithChrist 2:00pm/Thu!1m~30m%Done
+  - BrainStorming 11:30/Fri!1m~30m%Done
+  #- DinnerWithXinyi 6:00pm/Sat!1m~2h

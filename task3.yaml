@@ -1,0 +1,9 @@
+Calender_:
+  - set_ *1d
+  - Breakfast+Commute 8:50am!20m~45m
+  - Lunch 12:00pm!10m~1h
+  - Dinner 6:30pm!10m~45m
+  - Shower 22:00!1h30m~15m  
+  - Sleep 23:30!30m~7h45m  
+  - set_ *2d
+  - Jogging 22:00!30m~1h
