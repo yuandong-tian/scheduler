@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ] 
 then
-    filename=../../../daily_plan/plans/plans.org
+    filename=~/Dropbox/daily_plan/plans/plans.org
 else
     filename=$1
 fi
